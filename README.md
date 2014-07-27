@@ -33,8 +33,7 @@ a 'SUBJECT' variable to both datasets - 'test' and 'training' objects
 
 5) Merges TEST and TRAINING datasets - 'test' and 'training' objects - into one new dataset - object 'final.data'
 
-6) Reads the ACTIVITIES lavels - object 'activity.labels' - and assigns its values to LABELS variables of final merged dataset
-- object 'final.data' - as levels, makiing LABELS a factor variable at the same time
+6) Reads the ACTIVITIES lavels - object 'activity.labels' - and assigns its values to LABELS variables of final merged dataset - object 'final.data' - as levels, makiing LABELS a factor variable at the same time
 
 7) Extracts variables that measures means, standard deviations from the final dataset, as well as SUBJECTS and LABELS
 variables into new object called 'final.data_filt'
